@@ -49,7 +49,7 @@ public class TestController {
 
     @RequestMapping(value = "/logout")
     public void logout(HttpServletRequest httpServletRequest) {
-        httpServletRequest.getSession().removeAttribute("loginnumber");
+        httpServletRequest.getSession().removeAttribute("loginnumber ");
     }
 
 }
